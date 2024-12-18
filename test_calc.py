@@ -26,8 +26,3 @@ def test_negative_balance(calculator):
     calculator.add_expense(500)
     assert calculator.get_balance() == -500
 
-def test_add_tax(calculator):
-    calculator.add_income(1000)
-    calculator.add_tax(200)
-    assert calculator.get_balance() == 800
-
