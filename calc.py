@@ -12,7 +12,3 @@ class FinanceCalculator:
 
     def get_balance(self):
         return self.balance
-
-    def add_tax(self, tax):
-        self.balance -= tax
-        return self.balance
